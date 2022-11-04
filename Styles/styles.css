@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@100&display=swap');
+
+body { 
+    background-color:black;
+    font-family: 'Michroma', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    }
+
+a {
+    text-decoration: none;
+    color: #c4baa0;
+}
+
+/* Menú */
+
+.logo {width: 15%;}
+
+
+header {
+    background-color:#664A36; display: flex; justify-content: space-between; ;
+}
+
+.navBarList {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+
+}
+
+.navBarItem {
+    display: inline-block;
+}
+
+.navLink {
+    color: #c4baa0;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.navLink:hover {
+    background-color: #5b7e73;
+}
+
+.active {
+    color: #BC6110;
+}
+
+/* Main Home */
+
+main {
+    min-height: 100vh;
+}
+
+.cafeCienfuegos {
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+
+.contenedorImagenPrincipal {
+    position: relative;
+    display: inline-block;
+}
+
+.ochoCafes {
+    width: 100%;
+
+}
+
+.articleText {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    color: #ffffff;
+
+}
+
+.tresCafes{
+    margin-top: 20%;
+    width: 750px;
+}
+
+.tresCafes:hover {
+    width: 800px;
+}
+
+.unCafe{
+    width: 750px;
+    display: flex;  flex-direction: row; 
+    justify-content: flex-end;
+}
+
+.unCafe:hover {
+    width: 800px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 64px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10%;
+    font-weight:lighter;
+}
+
+
+.main {
+    display: flex;
+    flex: 1;}
+
+article, aside {
+    margin-bottom: 12%;
+}
+
+.tituloTresCafes {
+    margin-top: 25%;
+    margin-left: 9%;
+}
+
+.tituloUnCafe {
+    margin-left: 9%;
+}
+
+/* Footer */
+
+footer { 
+    width: 100%;
+    background-color:#664A36; 
+}
+
+footer p {
+    padding: 0;
+    text-align: center;
+    padding: 4rem;
+}
+
