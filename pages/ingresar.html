@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/styles.css">
     <title>Ingresar</title>
+    <script src="https://kit.fontawesome.com/d6436d0926.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,13 +24,36 @@
     </header>
 
     <main>
-
+        <section>
+            <div class="divForm"><form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        </section>
     </main> 
 
     <footer>
-        <p>Gracias  por  visitar  nuestro  sitio</p>
+        <p>También encontranos en:</p>
+        <div class="icons">
+        <a href="#" class="iconsA"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+</div>
     </footer>
-
 
 </body>
 </html>

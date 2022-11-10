@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap');
 
 body { 
-    background-color:black;
+    background-color:#c4baa0;
     font-family:'Roboto', sans-serif;
 }
 
@@ -18,6 +18,7 @@ a {
     font-size: 20px;
     font-weight: 100;
 }
+
 
 /* Menú */
 
@@ -43,7 +44,7 @@ header {
     color: #c4baa0;
     display: inline-block;
     padding: 20px;
-
+    transition: 1s ease;
 }
 
 .navLink:hover {
@@ -52,6 +53,18 @@ header {
 
 .active {
     color: #BC6110;
+}
+.hamburger {display: none;
+cursor: pointer;}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #BC6110;
 }
 
 /* Main Home */
@@ -110,13 +123,15 @@ main {
     width: 800px;
 }
 
+.verMas {color:#BC6110;}
+
 h2 {
     color: #ffffff;
     font-size: 64px;
     font-weight: 100;
 }
 
-p {
+.textoHome {
     color: #ffffff;
     font-size: 23px;
     padding: 10%;
@@ -144,18 +159,183 @@ article, aside {
 /* Footer */
 
 footer { 
-    width: 100%;
+    padding: 40px;
     background-color:#664A36; 
 }
 
 footer p {
-    padding: 0;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: start;
+    color: #c4baa0;
+
+}
+.fa-twitter {
+    font-size: 35px;
+}
+
+.fa-instagram {
+    font-size: 35px;
+}
+.fa-youtube {
+    font-size: 35px;
+}
+
+.fa-facebook {
+    font-size: 35px;
+}
+.icons {
     text-align: center;
-    padding: 4rem;
+}
+
+.faBrands {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*** SECCIÓN CAFÉ ***/
 
 .bodyCafe {
-    background-color: #ffffff;
+    background-color: #c4baa0;
+}
+
+.col {
+    font-weight: 100;
+}
+
+.fotoCafe {
+    width: 400px;
+    padding: 50px;
+}
+.fotoCafe:hover {
+    width: 420px;
+    transition: 0.5s;
+}
+
+h3 {
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.estasEn {
+    color: black;
+margin-left: 120px;
+font-weight: 100;
+font-size: 20px;
+margin-top: 20px;
+}
+
+.desCaf {
+    font-size: 20px;
+}
+
+/*** SECCIÓN INGRESAR ***/
+
+
+form {
+    color: #ffffff;
+    font-weight: 100;
+    align-items: center;
+    padding: 20px;
+}
+.form-label {
+    font-size: 50px;
+} 
+
+.form-control {
+    width: 300px; height: 30px;
+}
+.btn { background-color: #BC6110; padding: 10px; width: 200px;}
+
+form {
+    border: #664A36; border-style: solid;  border-width: 6px ;border-radius: 15px;
+    width: 800px; text-align: center; box-sizing: 5px; align-items: center; margin: auto; margin-top: 100px;}
+
+
+/*** SECCIÓN SOBRE NOSOTROS ***/
+.dondeEstamos {
+    text-align: center; margin-top: 60px;
+}
+
+.maps {
+    width: 100%;
+    margin-top: 100px;
+}
+
+/*** Media Teléfonos ***/
+
+@media only screen and (max-width: 576px) {
+    .unCafe {width: 300px; }
+    .unCafe:hover {width: 300px;}
+    .tresCafes {width: 300px;}
+    .tresCafes:hover {
+        width: 300px;
+    }
+    .logo {
+        width: 10%;
+    }
+    .cafeCienfuegos {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .textoHome {
+        font-size: 12px;
+    }
+    a {
+        font-size: 12px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+    .fa-brands { font-size: 20px;}
+    form {
+        width: 400px;
+    }
+}
+
+/*** MEDIA TABLET ***/
+
+@media only screen and (max-width: 768px) {
+    .unCafe {width: 500px; }
+    .unCafe:hover {width: 500px;}
+    .tresCafes {width: 500px;}
+    .tresCafes:hover {
+        width: 500px;
+    }
+    .logo {
+        width: 10%;
+    }
+    .cafeCienfuegos {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .textoHome {
+        font-size:17px;
+    }
+    a {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 110px;
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+    .fa-brands { font-size: 20px;}
+    form {
+        width: 400px;
+    }
 }
