@@ -1,0 +1,26 @@
+{
+  "name": "sitiowebcafecienfuegos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss Styles/sass/origen.scss Styles/css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liviolster/caf--cienfuegos.git"
+  },
+  "author": "Liv Iolster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liviolster/caf--cienfuegos/issues"
+  },
+  "homepage": "https://github.com/liviolster/caf--cienfuegos#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
