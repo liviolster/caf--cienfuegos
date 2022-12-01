@@ -41,9 +41,9 @@ header {
   padding: 20px;
   transition: 1s ease; }
 
-.nav
 .navLink:hover {
-  background-color: #5b7e73; }
+  background-color: #5b7e73;
+  color: #BC6110; }
 
 .active {
   color: #BC6110; }
@@ -198,6 +198,10 @@ h3 {
 .desCaf {
   font-size: 20px; }
 
+/*** SECCIÓN CHOCOLATE ***/
+.seccionFotos {
+  margin-bottom: 100px; }
+
 /*** SECCIÓN INGRESAR ***/
 form {
   color: #ffffff;
@@ -239,7 +243,8 @@ form {
 
 .maps {
   width: 100%;
-  margin-top: 100px; }
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 /*** MEDIA TABLET ***/
 @media only screen and (max-width: 768px) {

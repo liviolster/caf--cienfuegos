@@ -50,10 +50,11 @@ header {
     transition: 1s ease;
 }
 
-.nav
+
 
 .navLink:hover {
     background-color: #5b7e73;
+    color: #BC6110;
 }
 
 .active {
@@ -242,6 +243,12 @@ margin-top: 20px;
     font-size: 20px;
 }
 
+/*** SECCIÓN CHOCOLATE ***/
+
+.seccionFotos {
+    margin-bottom: 100px;
+}
+
 /*** SECCIÓN INGRESAR ***/
 
 
@@ -279,6 +286,7 @@ form {
 .maps {
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
