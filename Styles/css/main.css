@@ -308,3 +308,44 @@ form {
   .navbar {
     text-align: right;
     align-items: flex-end; } }
+
+    @media only screen and (max-width: 326px) {
+      .unCafe {width: 150px; }
+      .unCafe:hover {width: 300px;}
+      .tresCafes {width: 150px;}
+      .tresCafes:hover {
+          width: 300px;
+      }
+      .logo {
+          width: 10%;
+      }
+      .cafeCienfuegos {
+          font-size: 15px; letter-spacing: 15px; left: 20px; top: 50px;
+      }
+      h2 {
+          font-size: 20px;
+      }
+      .textoHome {
+          font-size: 8px;
+      }
+      a {
+          font-size: 8px;
+      }
+  
+      .logo {
+          display: none;
+      }
+  
+      footer p {
+          font-size: 10px;
+      }
+      .fa-brands { font-size: 10px; margin: 5px;}
+      form {
+          width: 400px;
+      }
+      .navbar {
+          text-align: right;
+          align-items: flex-end;
+      }
+  }
+  

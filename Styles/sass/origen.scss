@@ -333,7 +333,7 @@ form {
 
 /*** Media Teléfonos ***/
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: $sm) {
     .unCafe {width: 300px; }
     .unCafe:hover {width: 300px;}
     .tresCafes {width: 300px;}
@@ -370,5 +370,52 @@ form {
     .navbar {
         text-align: right;
         align-items: flex-end;
+    }
+}
+
+@media only screen and (max-width: $xs) {
+    .unCafe {width: 300px; }
+    .unCafe:hover {width: 300px;}
+    .tresCafes {width: 300px;}
+    .tresCafes:hover {
+        width: 300px;
+    }
+    .logo {
+        width: 10%;
+    }
+    .cafeCienfuegos {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .textoHome {
+        font-size: 12px;
+    }
+    a {
+        font-size: 12px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+    .fa-brands { font-size: 20px;}
+    form {
+        width: 400px;
+    }
+    .navbar {
+        text-align: right;
+        align-items: flex-end;
+    }
+}
+
+
+@each $social-media,$color in $enable-social-media {
+    .fa-#{social-media}{
+        color: $color;
     }
 }
